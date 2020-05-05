@@ -16,7 +16,6 @@ class Googler:
         # self.day = datetime.timedelta(days=1)
 
     def initializeDate(self):
-        # open up webpage and navifate shit 
         self.driver.get("https://www.google.com/search?q=bitcoin&sxsrf=ALeKk012Is_PiC_ZtFubsEEa3UEW9qjCYQ:1588696355719&source=lnms&tbm=nws&sa=X&ved=2ahUKEwir0cCPk53pAhWFK80KHbPWAQYQ_AUoAXoECB4QAw&biw=1920&bih=1008")
         # WebDriverWait(self.driver,5).until(cond.element_to_be_clickable((By.LINK_TEXT, 'News')))
         # self.driver.find_element_by_link_text("News").click() #get us into the news section
